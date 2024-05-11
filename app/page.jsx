@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Hero from '@/components/Hero';
 
 export const metadata = {
     Title: 'Home – Rental Property',
@@ -8,9 +8,10 @@ export const metadata = {
 
 const HomePage = () => {
     return (
-        <div>
-            <h1 className="text-3xl">HomePage</h1>
-            <Link href="/properties">Show Properties</Link>
+        <div className="">
+            <h1 className="text-3xl m-14 text-center w-15">
+                <Hero />
+            </h1>
         </div>
     );
 };

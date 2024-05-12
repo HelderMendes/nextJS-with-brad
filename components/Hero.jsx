@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Hero = () => {
+<<<<<<< HEAD
     return (
         <section className="bg-blue-700 py-20 mb-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
@@ -55,6 +56,9 @@ const Hero = () => {
             </div>
         </section>
     );
+=======
+    return <div>Hero for me and You</div>;
+>>>>>>> 7bdded8ae7af8d9ba91c86046f46b94960a2a8f1
 };
 
 export default Hero;

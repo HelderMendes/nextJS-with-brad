@@ -36,7 +36,7 @@ const PropertiesIdPage = () => {
                 Go Home {name}
             </button>
             <button
-                onClick={() => router.push('/')}
+                onClick={() => router.push('/homes')}
                 className="bg-violet-600 p-2 text-white"
             >
                 Go Home {pathname} {name}

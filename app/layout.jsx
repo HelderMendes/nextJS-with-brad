@@ -1,8 +1,11 @@
 import React from 'react';
 import '@/assets/styles/globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 import NavBar from '@/components/NavBar';
 
-export const matadata = {
+export const metadata = {
     title: 'Property Pulse | Your the Perfect Rental Home',
     description: 'Find your dream rental home',
     keywords: 'Rental Property, Find Rental, Find Property',

@@ -1,5 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/InfoBoxes';
 
 export const metadata = {
     Title: 'Home – Rental Property',
@@ -8,10 +9,10 @@ export const metadata = {
 
 const HomePage = () => {
     return (
-        <div>
-            <h1 className="text-3xl">HomePage</h1>
-            <Link href="/properties">Show Properties</Link>
-        </div>
+        <>
+            <Hero />
+            <InfoBoxes />
+        </>
     );
 };
 

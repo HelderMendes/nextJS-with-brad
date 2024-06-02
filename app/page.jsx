@@ -1,9 +1,7 @@
 import React from 'react';
 import Hero from '@/components/Hero';
-<<<<<<< HEAD
 import InfoBoxes from '@/components/InfoBoxes';
-=======
->>>>>>> 7bdded8ae7af8d9ba91c86046f46b94960a2a8f1
+import HomeProperties from '@/components/HomeProperties';
 
 export const metadata = {
     Title: 'Home – Rental Property',
@@ -11,19 +9,16 @@ export const metadata = {
 };
 
 const HomePage = () => {
+    // const HomePage = async () => {
+    // console.log(process.env.MONGODB_URI);
+    // await connectDB();
+
     return (
-<<<<<<< HEAD
         <>
             <Hero />
             <InfoBoxes />
+            <HomeProperties />
         </>
-=======
-        <div className="">
-            <h1 className="text-3xl m-14 text-center w-15">
-                <Hero />
-            </h1>
-        </div>
->>>>>>> 7bdded8ae7af8d9ba91c86046f46b94960a2a8f1
     );
 };
 
